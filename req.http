@@ -1,0 +1,26 @@
+# rest client extension requried 
+GET http://localhost:4000/get-user
+
+###
+
+POST http://localhost:4000/create-user
+Content-Type: application/json
+
+{
+    "email":"jsdlkhhjjefds"
+}
+
+###
+
+POST http://localhost:4000/create-booking
+Content-Type: application/json
+
+{
+    "name": "Vinay",
+    "date": "Tue Aug 29 2023",
+    "time":"11:00 AM"
+}
+
+###
+
+GET http://localhost:4000/get-booking
